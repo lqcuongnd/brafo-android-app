@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Brafo</string>
+    <string name="title_list">Danh sách báo cáo của bạn</string>
+    <string name="title_notification">Thông báo</string>
+    <string name="title_report">Báo cáo</string>
+    <string name="title_chatting">Chat</string>
+    <string name="title_setting">Cài đặt</string>
+</resources>

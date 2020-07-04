@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_list"
+    >
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.lqcuongnd.brafo_android_app.ui.list.ListFragment"
+        android:label="@string/title_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.lqcuongnd.brafo_android_app.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notification"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.lqcuongnd.brafo_android_app.ui.report.ReportFragment"
+        android:label="@string/title_report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/navigation_chatting"
+        android:name="com.lqcuongnd.brafo_android_app.ui.chatting.ChattingFragment"
+        android:label="chat với kỹ thuật viên"
+        tools:layout="@layout/fragment_chatting" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.lqcuongnd.brafo_android_app.ui.report.ReportFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+
+</navigation>

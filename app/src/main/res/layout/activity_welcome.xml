@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/wc"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/calligraffitti"
+        android:text="Brafo"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        android:textColor="#0096FF"
+        android:shadowColor="@color/cardview_light_background"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/wc"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/rorate_loading" />
+
+</RelativeLayout>
